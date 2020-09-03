@@ -1,0 +1,26 @@
+server:
+  port: 80
+  servlet:
+    context-path: /myspringboot
+
+logging:
+  level:
+    root: info
+  file:
+    path: /local/user/spring-log/
+
+debug: false
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://111.222.333.44:3307/prd
+    username: root1
+    password: 1222233@!
+
+mall:
+  config:
+    name: 优美商城
+    description: 这是一家化妆品特卖网站
+    hot-sales: 20
+    show-advert: true

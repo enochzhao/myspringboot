@@ -1,0 +1,26 @@
+server:
+  port: 9901
+  servlet:
+    context-path: /myspringboot
+
+logging:
+  level:
+    root: info
+  file:
+    path: e:/spring-log/
+
+debug: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 1222233
+
+mall:
+  config:
+    name: 爱美商城
+    description: 这是一家化妆品特卖网站
+    hot-sales: 20
+    show-advert: true
